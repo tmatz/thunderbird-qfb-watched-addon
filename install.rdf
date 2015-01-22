@@ -7,7 +7,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
 
-    <em:id>qfb-watched@tmatz.java_conf.gr.jp</em:id>
+    <em:id>qfb-watched@tmatz.github.io</em:id>
     <em:version>1.0</em:version>
     <em:type>2</em:type>
     <em:bootstrap>false</em:bootstrap>

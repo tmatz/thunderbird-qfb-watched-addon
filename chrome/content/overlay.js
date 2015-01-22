@@ -15,7 +15,7 @@ Components.utils.import("resource:///modules/mailServices.js");
     Components.utils.reportError("qfb-watch: " + filterService);
     let customTermWatchedThread = {
         name: strings.GetStringFromName('search_term_watched_threads.label'),
-        id: 'qfb-watched@tmatz#term-watched',
+        id: 'qfb-watched@tmatz.github.io#term-watched',
         needsBody: false,
         getEnabled: function(scope, op) { return true; },
         getAvailable: function(scope, op) { return true; },
