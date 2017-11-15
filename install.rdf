@@ -8,7 +8,7 @@
   <Description about="urn:mozilla:install-manifest">
 
     <em:id>qfb-watched@tmatz.github.io</em:id>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     <em:type>2</em:type>
     <em:bootstrap>false</em:bootstrap>
 
@@ -17,7 +17,7 @@
         <!-- Thunderbird -->
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
         <em:minVersion>10.0</em:minVersion>
-        <em:maxVersion>56.*</em:maxVersion>
+        <em:maxVersion>57.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 

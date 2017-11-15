@@ -1,10 +1,11 @@
-Components.utils.import("resource:///modules/quickFilterManager.js"); 
-Components.utils.import("resource:///modules/mailServices.js"); 
-
 (function(){
     const Cc = Components.classes;
     const Ci = Components.interfaces;
     const Cu = Components.utils;
+
+    Cu.import("resource:///modules/quickFilterManager.js"); 
+    Cu.import("resource:///modules/mailServices.js"); 
+
     const nsMsgSearchOp = Ci.nsMsgSearchOp;
     const nsMsgSearchAttrib = Ci.nsMsgSearchAttrib;
     const filterService = MailServices.filters;
@@ -12,7 +13,6 @@ Components.utils.import("resource:///modules/mailServices.js");
         .getService(Ci.nsIStringBundleService)
         .createBundle("chrome://qfb-watched/locale/qfb-watched.properties");
 
-    Components.utils.reportError("qfb-watch: " + filterService);
     let customTermWatchedThread = {
         name: strings.GetStringFromName('search_term_watched_threads.label'),
         id: 'qfb-watched@tmatz.github.io#term-watched',
