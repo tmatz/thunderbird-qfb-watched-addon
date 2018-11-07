@@ -13,4 +13,5 @@ This addon can be installed from normal addon channel.
 * Install it.
 
 You can also get the addon file from the following URL.
-* https://addons.mozilla.org/thunderbird/addon/quickfilter-watched-threads/
+
+* <https://addons.mozilla.org/thunderbird/addon/quickfilter-watched-threads/>
