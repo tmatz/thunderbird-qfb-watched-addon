@@ -45,8 +45,9 @@ function unloadFromWindow(window) {
 }
 
 function forEachOpenWindow(callback) {
-    for (let window of Services.wm.getEnumerator('mail:3pane')) {
-        callback(window);
+    var windows = Services.wm.getEnumerator('mail:3pane');
+    while (windows.hasMoreElements()) {
+        callback(windows.getNext().QueryInterface(Ci.nsIDOMWindow));
     }
 }
 
