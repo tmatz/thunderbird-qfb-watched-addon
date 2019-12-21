@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://qfb-watched/locale/overlay.dtd">
+<overlay
+    id="qfb-watched-overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script
+        type="application/javascript"
+        src="chrome://qfb-watched/content/overlay.js" />
+
+    <hbox id="quick-filter-bar-collapsible-buttons">
+        <toolbarbutton
+            id="qfb-qf-watched"
+            class="toolbarbutton-1"
+            type="checkbox"
+            crop="none"
+            minwidth="16"
+            image="chrome://messenger/skin/icons/thread-watched.png"
+            label="&qfb_watched_qf;"
+            tooltiptext="&qfb_watched_qf_tooltip;"
+            />
+    </hbox>
+</overlay>
