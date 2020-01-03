@@ -1,4 +1,2 @@
-content qfb-watched chrome/content/
 locale  qfb-watched en-US chrome/locales/en-US/
 locale  qfb-watched ja chrome/locales/ja/
-overlay chrome://messenger/content/messenger.xul chrome://qfb-watched/content/overlay.xul

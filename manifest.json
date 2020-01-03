@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "QuickFilter Watched Threads",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": "Takashi Matsuda",
   "homepage_url": "https://github.com/tmatz/thunderbird-qfb-watched-addon",
   "default_locale": "en",
@@ -13,6 +13,6 @@
     }
   },
   "legacy": {
-    "type" : "xul"
+    "type" : "bootstrap"
   }
 }
